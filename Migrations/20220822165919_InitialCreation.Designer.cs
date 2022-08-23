@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EscolaOnline.Api.Migrations
 {
     [DbContext(typeof(EscolaOnlineDataContext))]
-    [Migration("20220801212735_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20220822165919_InitialCreation")]
+    partial class InitialCreation
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

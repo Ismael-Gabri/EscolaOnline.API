@@ -11,7 +11,7 @@ namespace EscolaOnline.Api.Data
         public DbSet<Admin> admins { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-            => options.UseSqlServer("Server=localhost,1433;Database=EscolaOnlineData;User ID=sa;Password=1q2w3e4r@#$");
+            => options.UseSqlServer("Server=localhost,1433;Database=EscolaOnlineDb;User ID=sa;Password=1q2w3e4r@#$");
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
