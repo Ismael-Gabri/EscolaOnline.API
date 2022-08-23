@@ -23,8 +23,8 @@ namespace EscolaOnline.Api.Services
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(jwtKey), SecurityAlgorithms.HmacSha256Signature), //Definimos o sistema de incript do nosso token
                 Subject = new ClaimsIdentity(new Claim[]
                 {
-                    new Claim(ClaimTypes.Name, " Harry"),
-                    new Claim(ClaimTypes.Role, " Student"),
+                    new Claim(ClaimTypes.Name, "Harry"),
+                    new Claim(ClaimTypes.Role, "student"),
                     new Claim("fruta", "banana")
                 })
             };
